@@ -1,1 +1,60 @@
-{"attributes":[{"trait_type":"Base","value":"Starfish"},{"trait_type":"Eyes","value":"Big"},{"trait_type":"Mouth","value":"Surprised"},{"trait_type":"Level","value":5},{"trait_type":"Stamina","value":1.4},{"trait_type":"Personality","value":"Sad"},{"display_type":"boost_number","trait_type":"Aqua Power","value":40},{"display_type":"boost_percentage","trait_type":"Stamina Increase","value":10},{"display_type":"number","trait_type":"Generation","value":2}],"description":"description-URI-1","image":"https://storage.googleapis.com/opensea-prod.appspot.com/puffs/1.png","name":"name-1"}
+{
+    "image": "https://nft-test.civitaseterna.com/1.png",
+    "token_id": 0,
+    "name": "Roboots-NFT 0",
+    "description": "Only Test",
+    "attributes": [
+        {
+            "trait_type": "arm",
+            "value": 3
+        },
+        {
+            "trait_type": "hand",
+            "value": 3
+        },
+        {
+            "trait_type": "shoulderskeleton",
+            "value": 0
+        },
+        {
+            "trait_type": "shoulder",
+            "value": 5
+        },
+        {
+            "trait_type": "foot",
+            "value": 0
+        },
+        {
+            "trait_type": "leg",
+            "value": 5
+        },
+        {
+            "trait_type": "legskeleton",
+            "value": 0
+        },
+        {
+            "trait_type": "body",
+            "value": 1
+        },
+        {
+            "trait_type": "lowerbody",
+            "value": 1
+        },
+        {
+            "trait_type": "cockpit",
+            "value": 1
+        },
+        {
+            "trait_type": "lcd",
+            "value": 2
+        },
+        {
+            "trait_type": "headskeleton",
+            "value": 0
+        },
+        {
+            "trait_type": "head",
+            "value": 2
+        }
+    ]
+}
