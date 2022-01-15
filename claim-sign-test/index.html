@@ -1,0 +1,45 @@
+<html>
+  <head>
+    <title>Claim Sign</title>
+
+    <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
+    <script src="./js/index.js"></script>
+
+    <style>
+      th, td {
+          padding: 5px;
+      }
+    </style>
+
+  </head>
+
+  <body class="container">
+
+    <h1 class="page-header">Claim Sign</h1>
+
+
+    <label>private key: </label><input type="password" id="inputPrivateKey" value="">
+    <button onclick="loadPrivateKey()" id="buttonPrivateKeyOK">OK</button>
+    </br></br>
+    <label id='textAddress'></label>
+
+
+    <br/>
+    <br/>
+    <input type='file' id='buttonSelectFile' accept='text/plain' onchange='csvFileSelected(event)'>
+    <br/>
+    <br/>
+
+    <button onclick="downloadClaimList()" id="buttonDownload">download</button>
+    <button onclick="resetPage()" id="buttonReset">reset</button>
+
+    <br/>
+    <br/>
+
+    <div id='output'>
+    ...
+    </div>
+
+
+  </body>
+</html>
